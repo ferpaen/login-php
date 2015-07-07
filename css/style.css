@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	paddin:0;
+}
+
+/*Body*/
+body{
+	/*background: #00BCF2;*/
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+	text-align:justify;
+	font-size:18px;
+}
+
+body, label{
+	font-family: Segoe UI;
+	font-weight: 400;
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#333333;
+}
+
+header{
+margin:0;
+	min-height:150px;
+	background:#DDD;
+	}
+
+.logo{margin-top:50px}
+
+
+.textCenter{
+	text-align: center;
+}
+
+.expandFont{
+	font-size:36px;
+}
+
+.expandFont{
+	font-size:24px;
+}
+
+/*clase container modificando bootstrap*/
+.container{
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+
+@media (min-width:768px){.container{width:750px}}
+
+@media (min-width:992px){.container{width:970px}}
+
+@media (min-width:1200px){.container{width:1400px}}
+
+/*Esta clase puede centrar una capa completamente en la página*/
+.center {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+}
+
+#login{
+	max-width:750 px;
+}
+
+/*Edición de formulario*/
+
+.help-inline{
+	color:red;
+	font-weight: 700;
+}
+
+label {color:#333333;}
+
+.form-control {
+    display: block;
+    width: 100%;
+	max-width:450px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.pad-lat{padding:0 10px; float: left;}
+
+.pad-left{padding-left:25px}
+
+.pad-right{padding-right:25px}
+
+.oculto{display:none;}
+
+.clear-right{clear:right}
+
+.clear-both{clear:both}
+
+/*Edición de botones*/
+.btn {
+	min-width: 83px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.btn-mrgn {margin-right:8px}
+
+.btn:hover, .btn:focus {
+color: #fff;
+text-decoration: none;
+}
+
+.btn-volver {
+    color: #FFF;
+    background-color: #33cba7;
+    border-color: #21af8d;
+}
+
+.btn-volver:focus {
+	color: #FFF;
+    background-color: #21af8d;
+    background-position: 0px -15px;
+}
+
+.btn-volver:hover {
+	color: #fff;
+    background-color: #21af8d;
+    background-position: 0px -15px;
+}
+
+/* Edición de tablas*/
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: middle;
+    border-top: 1px solid #DDD;
+    text-align: center;
+}
+
+table {font-size:1.1em}
+
+.table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{background-color:#89d1c0}
+
+ul.u {list-style-type: none; text-align:left}
+ul.v {text-align:left}
+ol.f {list-style-type: decimal; font-size: 1.3em}
+ul.g {font-size: 1.3em}
+ul.h {list-style-type: none;}
+
+
+/* Capas de decoración */
+.dialogo {
+	background: #E7E7E7;
+	padding: 20px;
+	margin:10px;
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* Para el map*/
+#map {
+    height: 350px;
+    position: relative;
+    width: 100%;
+	}
+
+/* Escalado de imaágenes*/
+img {max-width:100%;}
+
+/* Página de la encuesta*/
+.lateral{
+	border-right: 1px solid grey;
+}
+
+footer{
+    height: 60px;
+}
+
+.centrar {
+    margin:0 15px;
+}
+
+.size {
+    width: 60px;
+}
+.size2 {
+    width: 70px;
+}
+
+/*Textos*/
+.resaltado{
+	color:#33CBA7;
+}
+
+.fuente{
+	color: red;
+	font-size:0.9em;
+	text-align: center;
+}
